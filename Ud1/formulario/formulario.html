@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=width="width=device-width, initial-scale=1.0">
+	<title>Formulario de inscrupción a la carrera XYZ</title>
+	<style>
+		.rojo{
+		color: red; }
+	</style>
+</head>
+
+<body>
+	<header>
+		<center><h1>Formulario de inscrupción a la carrera XYZ</H1></center>
+	</header>
+	
+		<form action="" method="get">
+		
+	<main>
+		
+		<h2>DATOS DE LA PERSONA PARTICIPANTE</H2>
+		
+		<label for="name"><p>Nombre:<span class="rojo">*</span></label>
+			<input id="name" autofocus type=text 
+			required minlength="2" maxlength="30"></p>
+		
+		<label for="second"><p>Apellido:<span class="rojo">*</span></label>
+			<input id="second" type=text
+			required minlength="2" maxlength="50"></p>
+		
+		<label for="dni"><p>DNI:<span class="rojo">*</span></label>
+			<input id="dni" type=text
+			required minlength="9" maxlength="9"></p>
+			
+		<label for="num"><p>Teléfono:<span class="rojo">*</span></label>
+			<input id="num" type=tel
+			required maxlength="100"></p>
+			
+		<label for="birtday"><p>Fecha de Nacimiento:<span class="rojo">*</span></label>
+			<input id="birtday" type=date
+			required></p>
+			
+		<p>Género:<span class="rojo">*</span>
+			<input requiered id="mujer" name="log" type="radio"><label for="mujer"> Mujer</label>
+			<input requiered id="hombre" name="log" type="radio"><label for="hombre"> Hombre</label>
+			<input requiered id="binario" name="log" type="radio"><label for="binario"> No Binario</label></p>
+			
+		<label><p>Dirección:<span class="rojo">*</span></label>
+			<select name="via">
+				<option value="1">Calle</option>
+				<option value="2">Avenida</option>
+				<option value="3">Carretera</option>
+				<option value="4">Ronda</option>
+				<option value="5">Autopista</option>
+				<option value="6">Rambla</option>
+				<option value="7">Camino</option>
+				<option value="otro">Otros (Escriba su respuesta)</option>
+			</select>
+			<input type="text" placeholder="Otro tipo (Opcional)">
+			<input type="text" placeholder="Vía" required>
+			<input type="text" placeholder="Número" size="16" required></p>
+		
+		<label >Población:<span class="rojo">*</span></label>
+			<select name="city">
+				<option value="1">Ciudadela</option>
+				<option value="2">Ferreries</option>
+				<option value="3">Mercadal</option>
+				<option value="4">Es Migjorn Gran</option>
+				<option value="5">Fornells</option>
+				<option value="6">Alaior</option>
+				<option value="7">Maó</option>
+				<option value="8">Es Castell</option>
+				<option value="9">Sant LLuis</option>
+				<option value="10">Otros</option>
+			</select>
+		
+		<label for="code" ><p>Código Postal:</label>
+			<input id="code" type="number" min="10000" max="99999" size="5"></p>
+		
+		<label for="club"><p>Club:</label>
+			<input id="club" type="text"></p>
+			
+		<label>Talla de Camiseta:</label>
+			<select name="size">
+				<option value="1">XS</option>
+				<option value="2">S</option>
+				<option value="3">M</option>
+				<option value="4">XL</option>
+				<option value="5">XXL</option>
+			</select>
+	
+	</main>
+	
+	<br>
+	
+	<main>
+	
+		<h2>DATOS DE LA CARRERA</h2>
+		
+		<p><label>Circuito (verde, azul o rojo)</label>
+			<select name="circuit">
+				<option value="1">Carrera mini (verde 1.700 m aprox.)</option>
+				<option value="2">Carrera media (azul 4.995 m aprox.)</option>
+				<option value="3">Carrera grande (rojo 10.000 m aprox.)</option>
+			</select></p>
+			
+		
+		<label for="coment">Comentarios:</label>
+			<textarea id="coment" maxlength="200" rows="5" cols="42"></textarea>
+			
+	</main>
+	
+	<br><br><br><br>
+
+	<main>
+		
+		<p><input type="checkbox" required>Acepto y asumo las normas de participación que regulan la Carrera Popular Ciudad de XYZ.<span class="rojo">*</span></input></p>
+		<p><input type="checkbox">Que estoy interesado/da en recibir información sobre las actividades deportivas organizadas por el Ayuntamiento y doy mi consentimiento para el envío de información al respecto.</input></p>
+			
+		<input type="submit">
+		
+	</main>
+	
+</body>

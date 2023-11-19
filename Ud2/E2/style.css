@@ -1,0 +1,26 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  color: #575555;
+}
+a{
+  color: #DA5F2A;
+}
+.oblique{
+  font-style: oblique;
+}
+.azul{
+  color: #3E73A7;
+}
+.azul_amarillo{
+  color: #393abe;
+  background-color: #FFFFCC;
+}
+.amarillo_negro{
+  background-color: black;
+  color: #FFF300;
+}
+.bold{
+  font-weight: bold;
+}

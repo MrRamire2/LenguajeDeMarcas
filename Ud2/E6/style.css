@@ -1,0 +1,45 @@
+header{
+  padding: 10px;
+  margin: 0;
+  background-color: #d3d0cb;
+}
+img{
+  width: 180px;
+}
+header a{
+  margin: 10px;
+  color: #1e2019;
+  text-decoration: none;
+}
+header a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+main a{
+  color: #d3d0cb;
+}
+form{
+  max-width: 900px;
+  width: 90%;
+  margin: auto;
+  border: #d3d0cb 1px solid;
+  border-radius: 15px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #1e2019;
+  color: #d3d0cb;
+}
+input[type="submit"]{
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #E2C044;
+}
+input[type="checkbox"]{
+  accent-color: #587b7f;
+}
+input:checked[type="radio"]{
+  accent-color: #587b7f;
+}

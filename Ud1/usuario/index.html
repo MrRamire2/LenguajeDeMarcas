@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro-Mi web</title>
+	<style>
+	.rojo{
+	color: red; }
+	   </style>
+	   
+</head>
+<body>
+
+	<form action="" method="get">
+
+	<h1>formulario de registro</h1>
+
+	<label for="name"><p>Nombre:<span class="rojo">*</span></label>
+		<input id="name" autofocus type=text 
+		required minlength="2" maxlength="30"></p>
+
+	<label for="firs"><p>Primer apellido:<span class="rojo">*</span></label>
+		<input id="firs" type="text"
+		required maxlength="50"></p>
+
+	<label for="second"><p>Segundo apellido:</label>
+		<input id="second" type="text" 
+		maxlength="50"></p>
+
+	<p>Género:<span class="rojo">*</span>
+		<input required id="mujer" name="log" type="radio"><label for="mujer"> Mujer</label>
+		<input required id="hombre" name="log" type="radio"><label for="hombre"> Hombre</label>
+		<input required id="binario" name="log"  type="radio"><label for="binario"> No binario</label></p>
+
+	<label for="gmail"><p>Email:<span class="rojo">*</span></label>
+		<input id="gmail" type="email"
+		required maxlength="100"></p>
+
+	<label for="des"><p>Descripción:</p></label>
+		<textarea id="des" maxlength="360" placeholder="Escribe una descripción de máximo 360 carácteres..." rows="8" cols="40"></textarea>
+	
+	<hr size="2px" color="black">
+
+	<h2>Consentimiento</h2>
+
+	<p><input type="checkbox" checked> Vull rebre informació amb les darres novetats i ofertes personalitzades</p>
+
+	<p><input required type="checkbox"> declar haver ilegit i acceptar les <a href="#terminos">condicions generals</a>
+		 condicions generals de l'aplicacio i la normativa sobre protecció de dades personals</p>
+
+	
+	<input type="submit" value="Enviar">
+
+	</form>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<FONT SIZE=-2>
+		<p id="terminos"><h3>Condiciones generales</h3>
+		<b>Identificació del tractament:</b> Nom i Llinatges<br>
+		<b>Responsable del tractament:</b> Empresa S.L.<br>
+		<b>Finalitat del tractament:</b> Gestionar els diferents enviaments d'informació derivats del registre de l'usuari.<br>
+		<b>Legitimació:</b> Consentimient de la persona interessada.<br>
+		<b>Persones detinatàries:</b> Les encarregades del tractament que proveeixen, per compte de l'empresa. Le dades no es comunicaran a altres categories de destinataris, excepte en els casos previstos per la ilei.<br>
+		<b>Drets de les persones interessades:</b> Sol-licitar I'accès, rectificació o supressió de les dades, i la limitació o oposició al tractament. Cal itilitzar els formilaris i el procediment disponibles.
+	</p></FONT>
+
+	
+</body>
+</html>

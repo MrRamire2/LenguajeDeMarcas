@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+	<title>tabla</title>
+	<style>
+		.rojo{color:"red"};
+	</style>
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>name</th>
+				<th>age</th>
+				<th colspan="2">address</th>
+				<th>image</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2">john</td>
+				<td>25</td>
+				<td rowspan="2">123 main st</td>
+				<td rowspan="2">city contry</td>
+				<td rowspan="2"><img src="./recursos/1.jpg" width="120px"></td>
+			</tr>
+			<tr>
+				<td>male</td>
+			</tr>
+			<tr>
+				<td rowspan="3">mary</td>
+				<td>30</td>
+				<td>456 elm st</td>
+				<td>another city contry</td>
+				<td rowspan="3"><img src="./recursos/1.jpg" width="120px"></td>
+			</tr>
+			<tr>
+				<td rowspan="2">female</td>
+				<td>987 oak st</td>
+				<td>yet another city counrty</td>
+			</tr>
+			<tr>
+				<td>101 pine st</td>
+				<td>one more city contry</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<br>
+	<table border="1">
+		<colgroup>
+			<col style="width: 20%; background-color:red">
+			<col style="width: 30%; background-color:blue">
+			<col style="width: 50%; background-color:yellow">
+		</colgroup>
+		<thead>
+			<tr>
+				<th>name</th>
+				<th>occupation</th>
+				<th>location</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>alice</td>
+				<td>softaware enginner</td>
+				<td>new york</td>
+			</tr>
+			<tr>
+				<td>bob</td>
+				<td>grphic designer</td>
+				<td>los angeles</td>
+			</tr>
+			<tr>
+				<td>charlie</td>
+				<td>marketing manager</td>
+				<td>chicago</td>
+			</tr>
+			<tr>
+				<td>dave</td>
+				<td>accountant</td>
+				<td>houston</td>
+			</tr>
+		</tbody>
+	</table>
+		<br>
+		<br>
+	<form>
+		<label>data<input list="datas" name="data"></label>
+		<datalist id="datas">
+			<option value="chrome">chrome</option>
+			<option value="firefox">firefox</option>
+		</datalist>
+	</form>
+</body>
