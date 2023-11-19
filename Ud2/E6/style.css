@@ -43,3 +43,9 @@ input[type="checkbox"]{
 input:checked[type="radio"]{
   accent-color: #587b7f;
 }
+.sombra:focus{
+  border: 0;
+  outline-style: none;
+  box-shadow: 0 0 10px #E2C044;
+  border-color:  #E2C044;
+}

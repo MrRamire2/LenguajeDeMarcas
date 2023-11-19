@@ -23,36 +23,36 @@
     <form action="" method="post">      
       <p>
         <label for="nom">Nom:<span class="red">*</span></label>
-        <input type="text" name="nombre" minlength="2" maxlength="30" required autofocus>
+        <input type="text" name="nombre" minlength="2" maxlength="30" required autofocus class="sombra">
       </p>
       
       <p>
         <label for="cognom1">Primer cognom:<span class="red">*</span></label>
-        <input type="text" name="cognom1" maxlength="50" required>
+        <input type="text" name="cognom1" maxlength="50" required class="sombra">
       </p>
 
       <p>
         <label for="cognom2">Segon cognom: </label>
-        <input type="text" name="cognom2" maxlength="50">
+        <input type="text" name="cognom2" maxlength="50" class="sombra">
       </p>
       
       <p>
         <label for="genere">Gènere:<span class="red">*</span></label>
-        <input type="radio" name="genere" value="d" required> Dona
-        <input type="radio" name="genere" value="h"> Home
-        <input type="radio" name="genere" value="n"> No binari
+        <input type="radio" name="genere" value="d" required class="sombra"> Dona
+        <input type="radio" name="genere" value="h" class="sombra"> Home
+        <input type="radio" name="genere" value="n" class="sombra"> No binari
       </p>
       
       <p>
-        <label for="mail">Email:<span class="red">*</span></label>
-        <input type="email" name="mail" maxlength="100" required>
+        <label for="mail" >Email:<span class="red">*</span></label>
+        <input type="email" name="mail" maxlength="100" required class="sombra">
       </p>
 
       <p id="text-textarea">
         <label for="descripcio">Descripció:</label>
       </p>
       <p id="textarea">
-        <textarea name="descripcio" cols="50" rows="8" autocomplete="off" maxlength="300" placeholder="Entra una descripció amb un màxim de 300 caràcters..."></textarea>
+        <textarea name="descripcio" cols="50" rows="8" autocomplete="off" maxlength="300" class="sombra" placeholder="Entra una descripció amb un màxim de 300 caràcters..."></textarea>
       </p>
 
       <hr>
@@ -61,16 +61,16 @@
       <div>
         <p>
           <label for="info"></label>
-          <input type="checkbox" name="info" checked> Vull rebre informació amb les darreres novetats i ofertes personalitzades.
+          <input type="checkbox" name="info" checked class="sombra"> Vull rebre informació amb les darreres novetats i ofertes personalitzades.
         </p>
         
         <p>
           <label for="condicions"></label>
-          <input type="checkbox" name="condicions" required> Declar haver llegit i acceptar les <a href="#condicions-generals" class="alternativo">condicions generals</a> de l'aplicació i la normativa sobre protecció de dades personals.
+          <input type="checkbox" name="condicions" required class="sombra"> Declar haver llegit i acceptar les <a href="#condicions-generals" class="alternativo">condicions generals</a> de l'aplicació i la normativa sobre protecció de dades personals.
         </p>
         
         <p>
-          <input type="submit" value="Envia">
+          <input type="submit" value="Envia" class="sombra">
         </p>
       </div>      
     </form>
