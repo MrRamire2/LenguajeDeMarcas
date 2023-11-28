@@ -1,0 +1,133 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+header{
+  text-align: center;
+  padding: 10px;
+}
+.logo{
+  width: 100px;
+  margin: 20px;
+}
+.menu ul{
+  display: inline;
+}
+.menu li{
+  display: inline;
+  margin: 0 10px;
+}
+.menu li a:hover{
+  color: #ff8800;
+  text-decoration: underline;
+}
+aside a:hover{
+  color: #ff8800;
+  text-decoration: underline;
+}
+.menu div{
+  position:absolute;
+  display: inline;
+  right: 43px;
+}
+.menu div input:last-child{
+  background-color: #ff8800;
+  width: 50px;
+  height: 22px;
+  border-radius: 5px;
+}
+.menu div input:last-child:hover{
+  background-color: #db7603;
+}
+#products-filter{
+  position: sticky;
+  top: 0;
+  background-color: lightgray;
+  padding: 10px;
+  z-index: 1;
+}
+#products-filter a:hover{
+  text-decoration:underline;
+}
+main{
+  position:relative;
+}
+aside{
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  top: 0;
+  padding: 40px 30px;
+}
+aside li{
+  list-style: none;
+}
+section{
+  position: absolute;
+  width: 85%;
+  right: 0;
+  top: 0;
+  padding-bottom: 4%;
+}
+article{
+  box-sizing:border-box;
+  max-width: 24%;
+  min-width: 24%;
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+}
+article img{
+  width: 100%;
+}
+article img:hover{
+  opacity: 50%;
+}
+article span{
+  display: block;
+}
+#back-to-top{
+  position: fixed;
+  bottom: 65px;
+  right: 43px;
+  padding: 4px 7px;
+  background-color: #ff8800;
+  border-radius: 5px;
+}
+#back-to-top:hover{
+  background-color: #db7603;
+}
+#load-more-products{
+  text-align: center;
+  margin-top: 20px;
+}
+#load-more-products button{
+  width: 80px;
+  height: 30px;
+  background-color: #ff8800;
+  border-radius: 5px;
+}
+#load-more-products button:hover{
+  background-color: #db7603;
+}
+footer{
+  background-color: lightgray;
+  display:block;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 5px;
+}
+footer li{
+  display: inline;
+  list-style: none;
+}
+footer li:hover{
+  text-decoration: underline;
+}
