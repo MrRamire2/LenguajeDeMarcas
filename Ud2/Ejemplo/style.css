@@ -1,0 +1,19 @@
+p{
+  color: darkslategray;
+}
+nav li{
+  list-style: none;
+}
+/* especificar más a solo ese li
+nav > ul > li{
+  list-style: none;
+}*/
+h1{
+  background-color: aqua;
+}
+p:only-child{
+  background-color: brown;
+}
+.subespecial h3{
+  background-color: bisque;
+}
