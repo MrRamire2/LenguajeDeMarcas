@@ -1,0 +1,31 @@
+<?hml version="1.0" encoding="utf-8"?>
+<viaje_turistico>
+  <viaje>
+    <cliente nombre="Jhonatan" apellido="Ramirez"/>
+    <fecha inicio="16 abril" Final="20 abril"/>
+    <origen Ciudad="Roldanillo"/>
+    <destinos>
+      <destino ciudad="Ciudad de mexico" hotel="Fafa hotel" noches="4"/>
+    </destinos>
+    <precio total="334.98"/>
+  </viaje>
+  <viaje>
+    <cliente nombre="Carlos" apellido="Cardona"/>
+    <fecha inicio="14 junio" Final="19 junio"/>
+    <origen Ciudad="Roldanillo"/>
+    <destinos>
+      <destino ciudad="Medellín" hotel="Kalifa Resort" noches="2"/>
+      <destino ciudad="Bogotá" hotel="Arena Suites" noches="3"/>
+    </destinos>
+    <precio total="432.48"/>
+  </viaje>
+  <viaje>
+    <cliente nombre="Carolina" apellido="Mejía"/>
+    <fecha inicio="7 agosto" Final="12 agosto"/>
+    <origen Ciudad="roldanillo"/>
+    <destinos>
+      <destino ciudad="Cali" hotel="Toscana Plaza" noches="5"/>
+    </destinos>
+    <precio total="185.32"/>
+  </viaje>
+</viaje_turistico>

@@ -1,0 +1,18 @@
+<?hml version="1.0" encoding="utf-8"?>
+<missatge>
+  <remitent>
+    <nom>Alfredo Reino</nom>
+    <email>alf@ramis.com</email>
+  </remitent>
+  <destinatari>
+    <nom>Bill Clinton</nom>
+    <email>president@whitehouse.gov</email>
+  </destinatari>
+  <assumpte>hola</assumpte>
+  <text>
+    <paragraf>hola, com va?</paragraf>
+    <paragraf>Fa molt de temps que no escrius. A veure si telefones i quedem aviat.</paragraf>
+    <paragraf>Salutacions.</paragraf>
+  </text>
+</missatge>
+
