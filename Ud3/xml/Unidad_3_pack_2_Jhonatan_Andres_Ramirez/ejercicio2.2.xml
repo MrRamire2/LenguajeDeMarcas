@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE operaciones [
+  <!ELEMENT operaciones (venta|compra)+>
+  <!ELEMENT venta (titulo+, cantidad, entregado?, importe)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT cantidad (#PCDATA)>
+  <!ELEMENT entregado (#PCDATA)>
+  <!ELEMENT importe (#PCDATA)>
+  <!ELEMENT compra (titulo+, proveedor, fecha_compra)>
+  <!ELEMENT proveedor (#PCDATA)>
+  <!ELEMENT fecha_compra (dia, mes, anio)>
+  <!ELEMENT dia (#PCDATA)>
+  <!ELEMENT mes (#PCDATA)>
+  <!ELEMENT anio (#PCDATA)>
+  <!ATTLIST importe moneda CDATA #REQUIRED>
+]>
+<operaciones>
+  <venta>
+    <titulo>El principito</titulo>
+    <titulo>El Señor de los Anillos</titulo>
+    <cantidad>12</cantidad>
+    <entregado>entregado</entregado>
+    <importe moneda="euro"></importe>
+  </venta>
+  <compra>
+    <titulo>Harry Potter</titulo>
+    <proveedor>Howards</proveedor>
+    <fecha_compra>
+      <dia>29</dia>
+      <mes>01</mes>
+      <anio>2024</anio>
+    </fecha_compra>
+  </compra>
+  <venta>
+    <titulo>El principito</titulo>
+    <cantidad>1</cantidad>
+    <entregado>entregado</entregado>
+    <importe moneda="euro"></importe>
+  </venta>
+  <venta>
+    <titulo>El principito</titulo>
+    <cantidad>12</cantidad>
+    <entregado>entregado</entregado>
+    <importe moneda="euro"></importe>
+  </venta>
+  <compra>
+    <titulo>Harry Potter</titulo>
+    <proveedor>Howards</proveedor>
+    <fecha_compra>
+      <dia>19</dia>
+      <mes>01</mes>
+      <anio>2024</anio>
+    </fecha_compra>
+  </compra>
+</operaciones>

@@ -1,0 +1,13 @@
+<!ELEMENT pedidos (tractor+)>
+<!ELEMENT tractor (componentes+)>
+<!ELEMENT componentes (nombre_fabricante, fecha_entrega, fragil, peso, numero_serie, km_max?)>
+<!ELEMENT nombre_fabricante (#PCDATA)>
+<!ELEMENT fecha_entrega (dia?, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT fragil (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT numero_serie (#PCDATA)>
+<!ELEMENT km_max (#PCDATA)>
+<!ATTLIST peso unidad CDATA #REQUIRED>

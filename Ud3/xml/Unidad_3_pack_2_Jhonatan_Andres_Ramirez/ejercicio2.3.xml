@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pedidos SYSTEM "ejercicio2.3.dtd">
+
+<pedidos>
+  <tractor>
+    <componentes>
+      <nombre_fabricante>JAR</nombre_fabricante>
+      <fecha_entrega>
+        <dia>12</dia>
+        <mes>11</mes>
+        <anio>2023</anio>
+      </fecha_entrega>
+      <fragil>si</fragil>
+      <peso unidad="kilos">230</peso>
+      <numero_serie>124325234</numero_serie>
+      <km_max>12</km_max>
+    </componentes>
+  </tractor>
+  <tractor>
+    <componentes>
+      <nombre_fabricante>PartesMg</nombre_fabricante>
+      <fecha_entrega>
+        <mes>04</mes>
+        <anio>2023</anio>
+      </fecha_entrega>
+      <fragil>no</fragil>
+      <peso unidad="gramos">200</peso>
+      <numero_serie>233464576457</numero_serie>
+    </componentes>
+  </tractor>
+</pedidos>
