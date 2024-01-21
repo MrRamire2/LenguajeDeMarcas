@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pedidos SYSTEM "ejercicio3.2.dtd">
+<pedidos>
+  <pedido>
+    <numero_serie>345423534</numero_serie>
+    <cantidad>2</cantidad>
+    <peso>12</peso>
+  </pedido>
+  <pedido>
+    <numero_serie>234325345</numero_serie>
+    <cantidad>5</cantidad>
+  </pedido>
+</pedidos>

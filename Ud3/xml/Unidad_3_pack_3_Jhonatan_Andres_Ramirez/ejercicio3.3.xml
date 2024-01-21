@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE entrega SYSTEM "ejercicio3.3.dtd">
+<entrega>
+  <lote>
+    <palet>
+      <numero_cajas>15</numero_cajas>
+      <contenido>
+        <nombre_componente>tarjetas graficas</nombre_componente>
+        <numero_serie>1342323</numero_serie>
+        <unidad_peso>kilo</unidad_peso>
+      </contenido>
+      <peso>2</peso>
+      <forma_manipulacion>a mano</forma_manipulacion>
+    </palet>
+    <palet>
+      <numero_cajas>15</numero_cajas>
+      <contenido>
+        <nombre_componente>tarjetas graficas</nombre_componente>
+        <numero_serie>1342323</numero_serie>
+        <peso_unidad>pluma</peso_unidad>
+        <unidad_peso>kilo</unidad_peso>
+      </contenido>
+      <peso>2</peso>
+      <forma_manipulacion>a mano</forma_manipulacion>
+    </palet>
+  </lote>
+  <lote>
+    <palet>
+      <numero_cajas>4</numero_cajas>
+      <contenido>
+        <nombre_componente>Ram</nombre_componente>
+        <procedencia>colombia</procedencia>
+        <procedencia>España</procedencia>
+        <numero_serie>1342323</numero_serie>
+        <peso_unidad>pluma</peso_unidad>
+        <unidad_peso>kilo</unidad_peso>
+      </contenido>
+      <peso>2</peso>
+      <forma_manipulacion>a mano</forma_manipulacion>
+    </palet>
+  </lote>
+</entrega>
