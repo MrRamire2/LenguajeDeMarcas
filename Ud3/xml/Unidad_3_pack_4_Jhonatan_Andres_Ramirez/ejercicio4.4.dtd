@@ -1,0 +1,26 @@
+<!ELEMENT intercambio (opciones+, futuro+, divisa+, bono+, letra+)>
+<!ELEMENT opciones (#PCDATA)>
+<!ELEMENT futuro (precio, proviene, producto?, mercado?)>
+<!ELEMENT divisa (precio, proviene, nombre, cambio+)>
+<!ELEMENT bono (precio, proviene, pais_procedencia, valor_deseado, valor_minimo, valor_maximo)>
+<!ELEMENT valor_deseado (#PCDATA)>
+<!ELEMENT valor_minimo (#PCDATA)>
+<!ELEMENT valor_maximo (#PCDATA)>
+<!ELEMENT letra (precio, proviene, interes, pais_emisor)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT proviene EMPTY>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT mercado (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cambio (#PCDATA)>
+<!ELEMENT pais_procedencia (#PCDATA)>
+<!ELEMENT interes (#PCDATA)>
+<!ELEMENT pais_emisor (Madrid | NewYork | Frankfurt | Tokio)>
+<!ELEMENT Madrid EMPTY>
+<!ELEMENT NewYork EMPTY>
+<!ELEMENT Frankfurt EMPTY>
+<!ELEMENT Tokio EMPTY>
+<!ATTLIST divisa estable CDATA #IMPLIED>
+<!ATTLIST bono estable CDATA #IMPLIED>
+<!ATTLIST opciones ciudades ID #REQUIRED>
+<!ATTLIST proviene ciudad IDREF #REQUIRED>

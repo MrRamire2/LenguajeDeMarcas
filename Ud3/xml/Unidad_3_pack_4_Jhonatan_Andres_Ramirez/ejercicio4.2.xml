@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lista_cursos SYSTEM "ejercicio4.2.dtd">
+<lista_cursos>
+  <cursos>
+    <alumnos>
+      <dni>23423423</dni>
+      <nombre>Jhonatan</nombre>
+      <apellido>Ramirez</apellido>
+      <segundo_apellido>Posada</segundo_apellido>
+      <asignaturas codigo="2344543234">
+        <nombre>Matemáticas</nombre>
+        <profesor>
+          <nrp>234235</nrp>
+          <nombre>Julio</nombre>
+          <apellido>Cardona</apellido>
+        </profesor>
+      </asignaturas>
+    </alumnos>
+  </cursos>
+</lista_cursos>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE intercambio SYSTEM "ejercicio4.4.dtd">
+<intercambio>
+  <opciones ciudades="Madrid"/>
+  <opciones ciudades="NuevaYork"/>
+  <opciones ciudades="Frankfurt"/>
+  <opciones ciudades="Tokio"/>
+  <futuro>
+    <precio>160</precio>
+    <proviene ciudad="Madrid"></proviene>
+    <producto>Tecnología</producto>
+    <mercado>Japon</mercado>
+  </futuro>
+  <divisa estable="">
+    <precio>125</precio>
+    <proviene ciudad="NuevaYork"></proviene>
+    <nombre>Street</nombre>
+    <cambio>Dolar</cambio>
+    <cambio>Euro</cambio>
+  </divisa>
+  <bono estable="">
+    <precio>169</precio>
+    <proviene ciudad="Frankfurt"></proviene>
+    <pais_procedencia>Mexico</pais_procedencia>
+    <valor_deseado>300</valor_deseado>    
+    <valor_minimo>200</valor_minimo>
+    <valor_maximo>400</valor_maximo>
+  </bono>
+  <letra>
+    <precio>400</precio>
+    <proviene ciudad="Tokio"></proviene>
+    <interes>10</interes>
+    <pais_emisor>
+      <Madrid/>
+    </pais_emisor>
+  </letra>
+</intercambio>

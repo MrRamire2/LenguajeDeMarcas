@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pedido SYSTEM "ejercicio4.3.dtd">
+<pedido>
+  <cuaderno num_hojas="12">fghgf</cuaderno>
+  <libro titulo="el señor de los anillos">4</libro>
+  <lapiz>
+    <numero>2</numero>
+  </lapiz>
+  <lapiz>
+    <numero>4</numero>
+  </lapiz>
+</pedido>

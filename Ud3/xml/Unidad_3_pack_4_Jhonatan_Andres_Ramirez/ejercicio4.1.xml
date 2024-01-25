@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE listafacturas SYSTEM "ejercicio4.1.dtd">
+
+<listafacturas>
+  <facturas>
+    <emisor cif="2142354234">
+      <nombre>Carlos</nombre>
+      <volumenventas>12</volumenventas>
+    </emisor>
+    <pagador cif="353465466">
+      <nombre>Jhonatan</nombre>
+      <volumenventas>10</volumenventas>
+    </pagador>
+    <importe>235434</importe>
+  </facturas>
+
+    <facturas fecha="16-01-2023">
+    <emisor cif="2142354234">
+      <nombre>Carlos</nombre>
+    </emisor>
+    <pagador cif="353465466">
+      <nombre>Jhonatan</nombre>
+      <volumenventas>10</volumenventas>
+    </pagador>
+    <importe>235434</importe>
+  </facturas>
+</listafacturas>
