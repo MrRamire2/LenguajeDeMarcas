@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fitxes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fitxa" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="nom" type="xs:string"/>
+              <xs:element name="inicials">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z, a-z][A-Z, a-z][A-Z, a-z]"/><!--se debe añadir la opción letras minúsculas-->
+                    <xs:pattern value="[A-Z, a-z][A-Z, a-z]"/>  <!--se debe añadir la opción de dos letras-->
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="edat" type="xs:integer"/>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

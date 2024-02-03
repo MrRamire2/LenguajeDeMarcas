@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="restriccion">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][A-Z][A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!--Faltaba crear una restricción global para llamarla en los elementos-->
+
+  <xs:element name="fitxes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fitxa" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom"/>
+              <xs:element name="inicials" type="restriccion"/>
+              <xs:element name="edat"/>
+              <xs:element name="inicials-al-reves" type="restriccion"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
