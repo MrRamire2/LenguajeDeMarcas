@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objetos
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="ejercicio6.3.xsd">
+  <objeto>
+    <propietario>Jhonatan</propietario>
+    <objetoNombre>coche</objetoNombre>
+    <precioSalida precioMinimo="2000">1000</precioSalida>
+  </objeto>
+  <objeto>
+    <propietario>Andres</propietario>
+    <objetoNombre>bolso</objetoNombre>
+    <precioSalida>100</precioSalida>
+  </objeto>
+</objetos>

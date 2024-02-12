@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="ejercicio6.4.xsd">
+  <empleado>
+    <info nombre="Carlos" id="1"></info>
+    <fechaContrato>
+      <dia>---20</dia>
+      <mes>--12</mes>
+      <año>2023</año>
+    </fechaContrato>
+    <puestos>
+      <puesto>gerente</puesto>
+      <puestosOcupados>oficial</puestosOcupados>
+    </puestos>
+    <jefeDirecto id="3"/>
+    <sueldo>2500</sueldo>
+    <titulos>
+      <titulo>ingeniero</titulo>
+      <titulo>master</titulo>
+    </titulos>
+    <sede>Madrid</sede>
+    <observaciones>
+      <demeritos>es to pesao</demeritos>
+    </observaciones>
+  </empleado>
+
+  <empleado>
+    <info nombre="Maria" id="2"></info>
+    <fechaContrato>
+      <dia>---14</dia>
+      <mes>--08</mes>
+      <año>2020</año>
+    </fechaContrato>
+    <puestos>
+      <puesto>maquinista</puesto>
+    </puestos>
+    <jefeDirecto id="1"/>
+    <sueldo>1500</sueldo>
+    <sede>Barcelona</sede>
+    <observaciones>
+      <meritos>existir</meritos>
+    </observaciones>
+  </empleado>
+
+  <empleado>
+    <info nombre="Jhonatan" id="3"></info>
+    <fechaContrato>
+      <dia>---19</dia>
+      <mes>--11</mes>
+      <año>2022</año>
+    </fechaContrato>
+    <puestos>
+      <puesto>jefe</puesto>
+      <puestosOcupados>gerente</puestosOcupados>
+    </puestos>
+    <jefeDirecto id="3"/>
+    <sueldo>3000</sueldo>
+    <titulos>
+      <titulo>diseñador grafico</titulo>
+      <titulo>programador</titulo>
+    </titulos>
+    <sede>Valencia</sede>
+  </empleado>
+
+  <empleado>
+    <info nombre="Lina" id="4"></info>
+    <fechaContrato>
+      <dia>---20</dia>
+      <mes>--12</mes>
+      <año>2021</año>
+    </fechaContrato>
+    <puestos>
+      <puesto>gerente</puesto>
+    </puestos>
+    <jefeDirecto id="3"/>
+    <sueldo>2800</sueldo>
+    <titulos>
+      <titulo>ingeniero</titulo>
+    </titulos>
+    <sede>Barcelona</sede>
+    <observaciones>
+      <meritos>premio por excelencia</meritos>
+    </observaciones>
+  </empleado>
+
+  <empleado>
+    <info nombre="Melany" id="5"></info>
+    <fechaContrato>
+      <dia>---15</dia>
+      <mes>--01</mes>
+      <año>2021</año>
+    </fechaContrato>
+    <puestos>
+      <puesto>subGerente</puesto>
+    </puestos>
+    <jefeDirecto id="4"/>
+    <sueldo>2300</sueldo>
+    <titulos>
+      <titulo>medico</titulo>
+    </titulos>
+    <sede>Valencia</sede>
+    <observaciones>
+      <meritos>premio nobel</meritos>
+    </observaciones>
+  </empleado>
+</empleados>
